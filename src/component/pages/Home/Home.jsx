@@ -1,5 +1,6 @@
 import  ArrowIcon  from "../../Icons/ArrowIcon";
 import HeroSection from "./HeroSection";
+import NavBar from "./NavBar";
 
 const Home = () => {
     return ( 
@@ -8,6 +9,7 @@ const Home = () => {
         <h2>home page</h2>
         <ArrowIcon />
         <HeroSection />
+        <NavBar />
         </div>
         </>
      );
