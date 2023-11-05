@@ -5,13 +5,17 @@ export default {
     colors: {
       primary: '#8D50EF',
       secondary: '#232340',
-      white: '#FFF'
-      // ...
+      white: 'rgba(255, 255, 255, 0.70)',
+      grayLight: '0px 0px 60px 0px rgba(0, 0, 0, 0.10)'
+
     },
     fontSize:{
       sm: '1.6rem',
       base: '1.8rem',
       '5xl': '5rem'
+    },
+    boxShadow: {
+      '3xl': '0px 0px 60px 0px rgba(0, 0, 0, 0.10)',
     },
     extend: {
       opacity: {
@@ -37,8 +41,7 @@ export default {
       padding: {
         '30': '3rem',
         '13': '1.3rem',
-      }
-
+      },
     },
   },
   plugins: [
