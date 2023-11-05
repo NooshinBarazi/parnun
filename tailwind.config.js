@@ -9,6 +9,7 @@ export default {
       // ...
     },
     fontSize:{
+      sm: '1.6rem',
       base: '1.8rem',
       '5xl': '5rem'
     },
@@ -17,14 +18,21 @@ export default {
         '50': '0.50',
       },
       width:{
-        '1': '1.5rem'
+        '1': '1.5rem',
+        '2': '2.4rem',
+        'menu': '71rem'
+      },
+      maxWidth: {
+        '1/2': '50%',
+      },
+      height:{
+        'menu': '6.2rem'
       },
       borderRadius: {
         'sm': '0.3rem',
-        'md': '0.375rem',
-        'lg': '1.5rem',
+        'md': '1.5rem',
         'full': '9999px',
-        'large': '12px',
+        'lg': '2.6rem',
       },
       padding: {
         '30': '3rem',
