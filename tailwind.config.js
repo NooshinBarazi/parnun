@@ -5,8 +5,9 @@ export default {
     colors: {
       primary: '#8D50EF',
       secondary: '#232340',
-      white: '#FFF'
-      // ...
+      white: 'rgba(255, 255, 255, 0.70)',
+      grayLight: '0px 0px 60px 0px rgba(0, 0, 0, 0.10)'
+
     },
     fontSize:{
       base: '1.8rem',
@@ -24,16 +25,14 @@ export default {
       },
       borderRadius: {
         'sm': '0.3rem',
-        'md': '0.375rem',
-        'lg': '1.5rem',
+        'md': 'rem',
         'full': '9999px',
-        'large': '12px',
+        'lg': '2.6rem',
       },
       padding: {
         '30': '3rem',
         '13': '1.3rem',
-      }
-
+      },
     },
   },
   plugins: [
