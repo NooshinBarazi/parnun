@@ -15,7 +15,22 @@ export default {
     extend: {
       opacity: {
         '50': '0.50',
+      },
+      width:{
+        '1': '1.5rem'
+      },
+      borderRadius: {
+        'sm': '0.3rem',
+        'md': '0.375rem',
+        'lg': '1.5rem',
+        'full': '9999px',
+        'large': '12px',
+      },
+      padding: {
+        '30': '3rem',
+        '13': '1.3rem',
       }
+
     },
   },
   plugins: [
