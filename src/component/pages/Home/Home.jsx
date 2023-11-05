@@ -7,10 +7,9 @@ const Home = () => {
     return ( 
         <>
         <div className="bg-gray-500">
-        <h2>home page</h2>
+        <NavBar />
         <ArrowIcon />
         <HeroSection />
-        <NavBar />
         </div>
         </>
      );
