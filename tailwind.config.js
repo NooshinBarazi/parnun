@@ -5,6 +5,7 @@ export default {
     colors: {
       primary: '#8D50EF',
       secondary: '#232340',
+      white: '#FFF'
       // ...
     },
     fontSize:{

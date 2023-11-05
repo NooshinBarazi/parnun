@@ -1,5 +1,4 @@
 import  ArrowIcon  from "../../Icons/ArrowIcon";
-import  CallIcon  from "../../Icons/CallIcon";
 import HeroSection from "./HeroSection";
 
 const Home = () => {
