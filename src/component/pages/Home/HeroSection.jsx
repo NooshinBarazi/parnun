@@ -28,6 +28,7 @@ const HeroSection = () => {
         </div>
         <button className="flex flex-col bg-secondary text-whiteLight rounded-full  justify-between items-center w-fit p-4 mt-5 ">
           <TextIcon width={67} height={26} />
+          
           <CallIcon width={26} height={26} />
           <TextReverseIcon width={67} height={26} />
         </button>
