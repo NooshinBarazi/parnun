@@ -16,7 +16,7 @@ export default {
     fontSize:{
       sm: '1.6rem',
       base: '1.8rem',
-      '5xl': '5rem'
+      '5xl': '4.9rem'
     },
     boxShadow: {
       '3xl': '0px 0px 60px 0px rgba(0, 0, 0, 0.10)',
@@ -34,17 +34,23 @@ export default {
       width:{
         '1': '1.5rem',
         '2': '2.4rem',
+        'sb': '15rem',
         'menu': '55rem',
         'menuRes': '25rem',
         'menuMd': '40rem'
         
       },
       maxWidth: {
-        '1/2': '50%',
+        // '1/2': '50%',
       },
       height:{
         'header':'5rem',
-        'menu': '4rem'
+        'menu': '4rem',
+        'sb': '5.6rem',
+        'sc': '24px'
+      },
+      space: {
+        '50': '5rem',
       },
       borderRadius: {
         'sm': '0.3rem',
