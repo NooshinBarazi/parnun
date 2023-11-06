@@ -7,7 +7,10 @@ export default {
       secondary: '#232340',
       white: 'rgba(255, 255, 255, 0.70)',
       whiteLight: '#fff',
-      grayLight: '0px 0px 60px 0px rgba(0, 0, 0, 0.10)'
+      grayLight: '0px 0px 60px 0px rgba(0, 0, 0, 0.10)',
+      purpleLight: '#EAE4FF',
+      bgLight: 'rgba(254,254,254,1)',
+      bgDark: 'rgba(235,229,255,1)'
 
     },
     fontSize:{
@@ -18,6 +21,12 @@ export default {
     boxShadow: {
       '3xl': '0px 0px 60px 0px rgba(0, 0, 0, 0.10)',
     },
+    screens:{
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
     extend: {
       opacity: {
         '50': '0.50',
@@ -25,7 +34,10 @@ export default {
       width:{
         '1': '1.5rem',
         '2': '2.4rem',
-        'menu': '55rem'
+        'menu': '55rem',
+        'menuRes': '25rem',
+        'menuMd': '40rem'
+        
       },
       maxWidth: {
         '1/2': '50%',
@@ -45,6 +57,13 @@ export default {
         '13': '1.3rem',
       },
     },
+    backdropBlur: {
+      xs: '51.984676361083984px',
+    },
+    gradientColorStopPositions:{
+      33: 'linear-gradient(165deg, rgba(254,254,254,1) 0%, rgba(235,229,255,1) 27%)'
+
+    }
   },
   plugins: [
   ],
