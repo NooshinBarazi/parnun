@@ -6,8 +6,10 @@ import MenuBurgerIcon from '../../Icons/MenuBurger'
 import ArrowDownIcon from '../../Icons/ArrowDownIcon'
 import CircleMenuIcon from '../../Icons/CircleMenuIcon'
 import SampleIcon from '../../Icons/SampleIcon'
+import { useState } from 'react'
 
 const NavBar = () => {
+  const [open, setOpen] = useState(false)
   return (
     <div>
       <nav className="container mx-auto -mt-8">
@@ -54,12 +56,13 @@ const NavBar = () => {
               </div>
             </div>
             {/* Left Side */}
-            <div className="menu_burger pe-5 lg:hidden cursor-pointer ">
+            <div className="menu_burger pe-5 lg:hidden cursor-pointer" onClick={()=>setOpen(!open)}>
               <MenuBurgerIcon />
             </div>
           </div>
         </div>
-        <div className="toggle container mx-auto flex flex-col items-start bg-whiteLight rounded-lg border border-gray absolute w-full
+       {open && (
+         <div className="toggle container mx-auto flex flex-col items-start bg-whiteLight rounded-lg border border-gray absolute w-full
          -mt-3 px-20 lg:hidden">
                 <h2 className='text-secondary text-[14px] font-bold py-9 text-right'>صفحه اصلی</h2>
                 <div className="service_menu flex items-center w-full justify-between">
@@ -147,7 +150,9 @@ const NavBar = () => {
                 <div className="blog py-8">
                   <h3 className='text-secondary text-[14px] font-bold'>درباره ما</h3>
                 </div>
-              </div>
+        </div>
+       )
+       }
       </nav>
     </div>
   )

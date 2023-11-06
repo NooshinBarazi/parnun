@@ -17,7 +17,7 @@ export default {
     fontSize:{
       sm: '1.6rem',
       base: '1.8rem',
-      '5xl': '4.9rem'
+      '5xl': '3.9rem'
     },
     boxShadow: {
       '3xl': '0px 0px 60px 0px rgba(0, 0, 0, 0.10)',
