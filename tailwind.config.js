@@ -10,7 +10,8 @@ export default {
       grayLight: '0px 0px 60px 0px rgba(0, 0, 0, 0.10)',
       purpleLight: '#EAE4FF',
       bgLight: 'rgba(254,254,254,1)',
-      bgDark: 'rgba(235,229,255,1)'
+      bgDark: 'rgba(235,229,255,1)',
+      gray: 'rgba(0, 0, 0, 0.30)'
 
     },
     fontSize:{
@@ -29,7 +30,9 @@ export default {
     },
     extend: {
       opacity: {
+        '60': '0.60',
         '50': '0.50',
+        '20': '0.20'
       },
       width:{
         '1': '1.5rem',
